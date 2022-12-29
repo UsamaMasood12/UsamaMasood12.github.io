@@ -1,4 +1,4 @@
-import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 html * {
   box-sizing: border-box;
@@ -488,4 +488,191 @@ h1 {
 .past-classes-box:hover {
   filter: grayscale(50%);
   transition: 600ms;
+}
+
+@media (min-width: 768px) {
+  #hamburger-btn {
+    display: none;
+  }
+
+  #log-section {
+    display: flex;
+  }
+
+  #menu-section {
+    display: flex;
+  }
+
+  #headline {
+    padding: 120px 0 150px 140px;
+  }
+
+  .first-title {
+    margin: 0;
+    font-size: 34px;
+  }
+
+  .second-title {
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 58px;
+    width: 800px;
+  }
+
+  .subtitle {
+    margin: 0;
+    width: 600px;
+    font-size: 16px;
+    padding: 18px;
+    line-height: 22px;
+  }
+
+  .dates {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 30px;
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  #programs {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  #programs li {
+    flex-direction: column;
+    margin: 0 2px;
+    max-width: 200px;
+    text-align: center;
+    height: 220px;
+  }
+
+  .program-logo {
+    width: 40px;
+    margin-top: 16px;
+  }
+
+  .program-title {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .program-description {
+    margin: 12px 16px 20px 16px;
+  }
+
+  #see-program-link {
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+    margin-bottom: 80px;
+  }
+
+  .professors .section-title {
+    margin-top: 0;
+  }
+
+  #partner-section .section-title {
+    color: #8d8d8d;
+    margin-bottom: 20px;
+  }
+
+  .partner-logo {
+    margin: 20px;
+  }
+
+  .partner-logo img {
+    width: 150px;
+  }
+
+  #footer {
+    padding: 30px 0 30px 140px;
+  }
+
+  .logo-footer img {
+    width: 350px;
+  }
+
+  #footer-info {
+    font-size: 12px;
+  }
+
+  #about-section {
+    padding: 100px 0;
+  }
+
+  #about-section .first-title {
+    display: none;
+  }
+
+  #about-section .red-bar {
+    margin: 30px 0;
+  }
+
+  #about-section .subtitle {
+    margin-bottom: 40px;
+  }
+
+  #logo-section div p {
+    font-size: 16px;
+    max-width: 600px;
+  }
+
+  #logo-section-box {
+    margin: 20px 0 60px 0;
+  }
+
+  #logo-section-box img {
+    width: 500px;
+  }
+
+  #past-classes {
+    padding-bottom: 60px;
+  }
+
+  .past-classes-info {
+    font-size: 16px;
+    max-width: 600px;
+  }
+
+  .past-classes-container {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  .past-classes-box {
+    max-width: 350px;
+    margin: 0 10px;
+  }
+
+  .professors-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #see-program-link:hover {
+    background-color: #fff;
+    color: #272a31;
+    transition: 200ms;
+  }
+
+  #see-program-link:hover a {
+    color: #272a31;
+    transition: 200ms;
+  }
 }
