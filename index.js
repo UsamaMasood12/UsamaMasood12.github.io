@@ -19,37 +19,37 @@ const professors = [
     name: 'Yann LeCun',
     profession: 'Silver Professor of the Curant Institute of Mathematical Sciences',
     description: 'Artifical Intelligence, Deep Learning Networks',
-    img: 'images/yann-lecun.jpg',
+    img: 'images/Sohyeoung-Noh.jpg',
   },
   {
     name: 'Daphne Koller',
     profession: 'Professor — Department of Computer Science',
     description: 'Machine Learning, Artifical Intelligence, Computational Biology',
-    img: 'images/daphne-koller.jpg',
+    img: 'images/Yochai-Benkler.jpg',
   },
   {
     name: 'Tim Berners-Lee',
     profession: 'MIT, University of Oxford. Professor & Professorial Fellow of Computer Science',
     description: 'HTML, Invented World Wide Web',
-    img: 'images/tim-berners-lee.jpg',
+    img: 'images/Chon-Kilnam.jpg',
   },
   {
     name: 'Scott Aaronson',
     profession: 'David J. Bruton Jr. Centennial Professor of Computer Science',
     description: 'Quantum Computing, Complexity Theory',
-    img: 'images/scott-aaronson.jpg',
+    img: 'images/Sohyeoung-Noh.jpg',
   },
   {
     name: 'Erik Demaine',
     profession: 'Professor — MIT Computer Science and Artificial Intelligence Laboratory',
     description: 'Computational Origami',
-    img: 'images/erik-demaine.jpg',
+    img: 'images/Yochai-Benkler.jpg',
   },
   {
     name: 'Donald Knuth',
     profession: 'Professor Emeritusr — Department of Computing Science',
     description: 'KComputer Programming, Analysis of Algorithms',
-    img: 'images/donald-knuth.jpg',
+    img: 'images/Chon-Kilnam.jpg',
   },
 ];
 
