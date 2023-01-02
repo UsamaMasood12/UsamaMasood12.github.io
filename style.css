@@ -280,6 +280,13 @@ h1 {
   align-items: center;
 }
 
+#about-footer {
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+  background-color: #272a31;
+}
+
 .logo-footer img {
   margin: 40px 15px 40px 40px;
   width: 35vw;
@@ -288,6 +295,12 @@ h1 {
 #footer-info {
   font-size: 10px;
   color: #555;
+  margin: 40px 40px 40px 15px;
+}
+
+#about-footer-info {
+  font-size: 10px;
+  color: white;
   margin: 40px 40px 40px 15px;
 }
 
@@ -519,6 +532,13 @@ h1 {
   transition: 600ms;
 }
 
+.location {
+  margin-top: 20px;
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   #hamburger-btn {
     display: none;
@@ -702,5 +722,9 @@ h1 {
   #see-program-link:hover a {
     color: #272a31;
     transition: 200ms;
+  }
+
+  #social-media {
+    margin-top: -3px;
   }
 }
