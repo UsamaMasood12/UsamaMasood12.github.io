@@ -24,6 +24,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 
@@ -156,6 +157,16 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project you can give me stars it will encourge me. And you can also suggest me if you have any suggestions.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Cindy Shin](http://linkedin.com/in/adagio07), who is the real [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
