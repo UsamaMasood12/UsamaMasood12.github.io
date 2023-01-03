@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Capstone Web Page</title>
+</head>
+
+
+<body>
+    <header id="navbar">
+        <nav>
+            <div id="log-section">
+                <a href="#" id="social-media"><img src="./images/Icon-Twitter.svg" alt=""></a>
+                <a href="#" id="social-media"><img src="./images/Icon-Linkedin.svg" alt=""></a>
+                <a href="#" id="my-page">My page</a>
+                <a href="#" id="language">English</a>
+                <a href="#" id="log-in-out">Logout</a>
+            </div>
+            <div id="hamburger-btn" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="menu-section">
+                <a href="index.html" class="logo"><img src="images/Logo.png" alt="M logo"></a>
+                <ul id="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+                <a href="#" id="sign-in-btn">Sign in</a>
+            </div>
+        </nav>
+
+
+        <section id="mobile_menu">
+            <div><a href="index.html" class="logo"><img src="images/Logo.png" alt="M logo"></a></div>
+            <ul id="mobile_ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Payment</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Log in</a></li>
+            </ul>
+        </section>
+    </header>
+
+
+    <section id="about-section">
+        <p class="first-title">"Hello World!"</p>
+        <h1 class="second-title">MICROVERSE CAPSTONE PAGE</h1>
+        <span class="red-bar"></span>
+        <p class="subtitle">In this capstone project, you are going to build is based on an online website for a conference. We provide some design guidelines for you to create the website, but you must personalize the content, i.e., instead of a conference you can build a website for a concert or for a web development course. It's very important the you personalize your project so that you have something unique in your portfolio to share with potential employers during job searching.</p>
+        <div class="contact">
+            <p>Please contact us per Email for any further questions about the Web Dev Program!</p>
+            <a href="#">example@email.com</a>
+        </div>
+    </section>
+
+
+    <section id="logo-section">
+        <div class="section-title"><h2>Microverse Logo</h2></div>
+        <span class="red-bar"></span>
+        <div><p>We provide some design guidelines for you to create the website, but you must personalize the content, instead of a conference you can build a website for a concert or for a web development course. It's very important the you personalize your project so that you have something unique in your portfolio to share with potential employers during job searching.</p></div>
+        <div id="logo-section-box"><img src="images/Microverse.png" alt="esverocim logo"></div>
+        <span class="gray-line"></span>
+    </section>
+
+
+    <section id="past-classes">
+        <div class="section-title"><h2>Microverse Logo</h2></div>
+        <span class="red-bar"></span>
+        <div class="past-classes-info"><p>Take a look at the last classes we done.</p></div>
+        <ul class="past-classes-container">
+            <li class="past-classes-box">
+                <a href="#"><img src="images/class-1.jpg" alt="computer science class full of students"></a>
+                <p>2022<br>Microverse</p>
+            </li>
+            <li class="past-classes-box">
+                <a href="#"><img src="images/class-2.webp" alt="computer science class full of students"></a>
+                <p>2022<br>Capstone Project</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <section id="about-footer">
+        <a href="#" class="logo-footer"><img src="images/Microverse.png" alt="microverse logo"></a>
+        <div class="footer-info-box">
+            <p id="about-footer-info">Est. 2021.<br>No Rights Reserved.</p>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
